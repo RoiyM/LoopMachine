@@ -39,7 +39,6 @@ const loopPressedHandler = () => {
 };
 
 const muteButtonPresses = (element) => {
-  console.log(element);
   let id = element.id;
   let button = document.getElementById(element.name);
   if (audios[id].audio.muted) {
