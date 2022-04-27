@@ -53,7 +53,9 @@ const muteButtonPresses = (element) => {
 const initElement = function () {
   let id = 0;
   tracks.forEach((element) => {
-    let aud = new Audio(`/audio/${element}.mp3`);
+    let aud = new Audio(
+      `https://github.com/RoiyM/LoopMachine/blob/master/audio/${element}.mp3?raw=true`
+    );
     let obj = {
       audio: aud,
       name: element,
